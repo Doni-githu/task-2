@@ -1,11 +1,13 @@
 @font-face {
     font-family: "Montserrat";
-    src: url(./fonts/Montserrat/static/Montserrat-Light.ttf);
+    src: url(./fonts/Montserrat/static/Montserrat-Light.woff2) format("woff2");
+    font-display: swap;
 }
 
 @font-face {
     font-family: "Inter";
-    src: url(./fonts/Inter/static/Inter-Regular.ttf);
+    src: url(./fonts/Inter/static/Inter-Regular.woff2) format("woff2");
+    font-display: swap;
 }
 
 * {
